@@ -1,0 +1,121 @@
+/* Write some CSS below : */
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+/* Design General */
+
+body{
+    font-size: 17px;
+    color: #003049 ;
+    font-family : 'Lora', serif;
+    background-image: linear-gradient(to bottom, #f12711, #f5af19);
+  }
+  
+  h1{
+    font-weight: 800;
+    font-size: 45px;
+  }
+
+  #gradient{
+    color : #d62828;
+    background: -webkit-linear-gradient(rgba(253,29,29,1), rgba(252,176,69,1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  #intro {
+    color : #003049; 
+    font-size : 14px;
+  }
+  
+  h2 {
+    font-weight: 600;
+    color: #ffbe0b;
+    font-size: 22px;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .card-white {
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    width: 700px;
+    margin: 10px auto;
+  }
+  
+  #Valentine {
+    width: 170px;
+    border-radius: 30%;
+  }
+
+.card-white img{
+    width: 100px;
+}
+  
+  .btn-red {
+    background-color: #d62828;
+    color: white;
+    border-radius: 4px;
+    padding: 15px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    box-shadow: 0 10px 20px rgba(253,29,29,0.5);
+  }
+  
+  .btn-red:hover {
+    background-color: #ffbe0b ;
+  }
+  
+  #intro {
+    margin-bottom: 50px;
+  }
+
+  .list{
+    padding-left: 0;
+  }
+  
+  .list-inline {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .list-inline li {
+    display: inline;
+   
+  }
+  
+  .list-inline i {
+    font-size: 50px;
+    color: #d62828;
+    letter-spacing: 30px;
+  }
+
+  .list-inline img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  
+  
+  .list-inline i:hover {
+    color: black;
+}
+
+.list li {
+    list-style : none;
+}
